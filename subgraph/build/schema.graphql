@@ -1,0 +1,14 @@
+type Storage @entity {
+  id: Bytes!
+  storedMessages: [NewMessage!]!
+}
+
+type NewMessage @entity(immutable: true) {
+  id: Bytes!
+  sender: Bytes! # address
+  messageIndex: BigInt! # uint256
+  message: String! # string
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
