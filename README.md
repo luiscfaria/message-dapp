@@ -11,7 +11,7 @@ This is project of dApp which allow users to say Hi to the world.
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://message-dapp.vercel.app/
 
 ## Technologies
 
